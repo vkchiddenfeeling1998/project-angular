@@ -1,0 +1,56 @@
+body{
+    background: rgb(88, 30, 88);
+}
+
+/*-- navigation --*/
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand h1{
+	font-size:30px;
+	font-family: 'Poiret One', cursive;
+}
+h1 span {
+    background:#C5413E;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5em 0.7em;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 3px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:transparent;
+}
+.navbar-inverse {
+    background-color:transparent;
+    border-color:transparent;
+}
+.navbar-brand {
+	padding:8px 15px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+	font-weight: 400;
+    font-size: 17px;
+}
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+ul.nav.navbar-nav.navbar-right {
+    margin: 10px 0 0 0;
+}
